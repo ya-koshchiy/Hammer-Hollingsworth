@@ -11,7 +11,7 @@ This program numerically integrates stiff oredinary first-order differential equ
 
 Coefficients _k_ are found with fixed-point iteration.
 
-
+Література/Literature:
 1. Гайдишев И. П. Моделирование стохастических и детерменированных систем: руководство пользователя программы AtteStat. Курган : 2015. 484 с.
 2. Арушанян О. Б., Залёткин С.Ф. Численное решение обыкновенных дифференциальных уравнений. Москва : ВЦ МГУ, 1990. 122 с.
 3. Hairer E., Nørsett S. P., Wanner G. Solving Ordinary Differential Equations I: Nonstiff Problems. Heidelberg : Springer Berlin, 1993. 528 с.

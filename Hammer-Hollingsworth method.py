@@ -8,11 +8,9 @@ t, x_i, y_i = [0], [2], [1]
 errors, steps = [0], [h]
 
 print("\n" + "The rate of reproduction of the prey population in the absence of the predator:   a = " + str(a))
-print("The specific rate of consumption by the predator population of the prey population at a unit density of both "
-      "populations:   b = " + str(b))
+print("The specific rate of consumption by the predator population of the prey population at a unit density of both populations:   b = " + str(b))
 print("The specific predator mortality:   c = " + str(c))
-print("Coefficient of conversion of the biomass consumed by the predator into its own biomass: " + str(d / b) + ",   "
-      "where d = " + str(d) + ", b = " + str(b))
+print("Coefficient of conversion of the biomass consumed by the predator into its own biomass: " + str(d / b) + ",     where d = " + str(d) + ", b = " + str(b))
 print("Predator saturation coefficient:   s = " + str(s) + "\n")
 
 kx1, kx2 = smp.Symbol('kx1'), smp.Symbol('kx2')
